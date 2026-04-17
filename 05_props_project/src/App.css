@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #333;
+  color: aliceblue;
+}
+/* style  */
+.parent {
+  width: 300px;
+  height: 370px;
+  background-color: #2a7b9b;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+}
+.mid p {
+  margin-top: 30px;
+}
+.bottom {
+  text-align: center;
+}
+.bottom button {
+  cursor: pointer;
+  margin-top: 30px;
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  background-color: rgb(89, 89, 120);
+  color: wheat;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.top img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+.tag {
+  font-size: 25px;
+  font-weight: 700;
+}
+span {
+  font-size: 15px;
+}
+
+.container {
+  display: flex;
+  gap: 20px; /* cards ke beech space */
+  justify-content: center;
+  flex-wrap: wrap; /* responsive banane ke liye */
+}
