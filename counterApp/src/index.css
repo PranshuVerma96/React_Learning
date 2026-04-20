@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(43, 40, 40);
+  color: white;
+  
+}
+.main-div{
+  text-align: center;
+  
+  
+}
+.ratting{
+  color: orange;
+  margin-bottom: 15px
+}
+.btn{
+  
+  color: blue;
+ margin-bottom: 15px;
+ font-size: large;
+text-decoration: none;
+ 
+  
+}
+.btn:hover{
+  border: 2px solid rgb(82, 255, 82);
+}
+.first-heading{
+  background-color: aquamarine;
+  color: black;
+  margin-bottom: 15px;
+}
