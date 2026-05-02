@@ -14,15 +14,15 @@ export const App = ()=>{
   return (
     <section className='container'>
     {/* // <h1 className='card-heading'>List of Best Netflix Series</h1> */}
-       {/* <NetflixSeries/> */}
-      {/* <EventHandling/> */}
+       <NetflixSeries/> 
+      {/* <EventHandling/>
 
     {/* //   <EventProps/> */}
 {/* 
     <State/> */}
-{/* <DerivedState/> */}
-{/* <ToggleSwitch/> */}
-<Staf
+<DerivedState/> 
+ <ToggleSwitch/>
+
     </section>
 
     

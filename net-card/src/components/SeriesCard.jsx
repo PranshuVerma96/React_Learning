@@ -7,17 +7,7 @@ export const SeriesCard = (props)=>{
 
  
 
-    // const Button = styled.button (
-    //   {
-    //             padding:'1.2rem 2.4rem',
-    //             border:'none',
-    //             fontSize : '1rem',
-    //             backgroundColor:`${rating>=8.5 ? 'pink' : '#f7dc6f'}`,
-    //             color : 'black',
-                
-    //            cursor :'pointer',
-    //   }
-    // )
+   
         const Button = styled.button` 
       
                 padding:1.2rem 2.4rem;
